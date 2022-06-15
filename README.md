@@ -1,4 +1,4 @@
-# Gatling DemoStore Setup
+# Video Game Database
 
 ## Running the application
 

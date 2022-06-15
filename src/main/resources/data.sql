@@ -36,6 +36,11 @@ VALUES (17,'Casual Black-Blue','casual-black-blue','<p>Some casual black &amp; b
        (38,'Plain White','plain-white','<p>Simple plain white glasses case, with blue interior</p>','curve-white-open.jpg',9.99,7,'2020-11-15 17:05:56','2020-11-15 17:05:56'),
        (39,'White Leopard Pattern','white-leopard-pattern','<p>White leopard pattern design glasses case</p>','curve-whitepattern-open.jpg',13.99,7,'2020-11-15 17:06:32','2020-11-15 17:06:32');
 
+INSERT INTO videogames (id, name, release_date, review_score, category, rating)
+VALUES (1,'Mario','2005-01-02',85,'Platform','Universal'),
+       (2,'Zelda','2002-03-02',96,'Adventure','Universal'),
+       (3,'Grand Theft Auto','2003-05-02',92,'Simulation','Mature');
+
 INSERT INTO users (id, username, password, email, phone_number)
 VALUES (1,'john','pass','john@gmail.com','11111111'),
        (2,'user1','pass','user1@email.com','11111111'),

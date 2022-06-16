@@ -43,6 +43,7 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/api/authenticate").permitAll()
                 .antMatchers(HttpMethod.POST).hasAnyRole("ADMIN")
+                .antMatchers(HttpMethod.DELETE).hasAnyRole("ADMIN")
                 .antMatchers(HttpMethod.PUT).hasAnyRole("ADMIN")
                 .and()
                 .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class)

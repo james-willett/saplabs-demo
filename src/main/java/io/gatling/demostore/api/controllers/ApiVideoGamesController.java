@@ -14,14 +14,7 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
@@ -116,5 +109,21 @@ public class ApiVideoGamesController {
 
         // DO NO SAVE (readonly)
         return videoGame;
+    }
+
+    @Operation(summary = "Delete a video game")
+    @ApiResponses(
+            @ApiResponse(responseCode = "404", description = "Video game not found")
+    )
+    @DeleteMapping(path = "/{id}")
+    public String delete(
+            @PathVariable @Parameter(description = "VideoGame ID") Integer id
+    ) {
+        VideoGame videoGame = videoGameRepository
+                .findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
+
+        // Do not actually delete the game (readonly)
+        return "Video game deleted";
     }
 }

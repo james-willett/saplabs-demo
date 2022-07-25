@@ -1,24 +1,18 @@
 package io.gatling.demostore.api.controllers;
 
-import io.gatling.demostore.api.payloads.ProductRequest;
 import io.gatling.demostore.api.payloads.VideoGameRequest;
-import io.gatling.demostore.models.CategoryRepository;
-import io.gatling.demostore.models.ProductRepository;
 import io.gatling.demostore.models.VideoGameRepository;
-import io.gatling.demostore.models.data.Product;
 import io.gatling.demostore.models.data.VideoGame;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
-import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;

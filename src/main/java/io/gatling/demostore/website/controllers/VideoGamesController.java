@@ -1,8 +1,6 @@
 package io.gatling.demostore.website.controllers;
 
-import io.gatling.demostore.models.ProductRepository;
 import io.gatling.demostore.models.VideoGameRepository;
-import io.gatling.demostore.models.data.Product;
 
 import io.gatling.demostore.models.data.VideoGame;
 import org.springframework.beans.factory.annotation.Autowired;

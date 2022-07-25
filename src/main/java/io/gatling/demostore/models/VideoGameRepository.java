@@ -1,8 +1,5 @@
 package io.gatling.demostore.models;
 
-import java.util.List;
-
-import io.gatling.demostore.models.data.Product;
 import io.gatling.demostore.models.data.VideoGame;
 
 import org.springframework.data.domain.Page;

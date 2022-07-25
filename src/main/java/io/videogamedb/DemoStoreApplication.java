@@ -1,4 +1,4 @@
-package io.gatling.demostore;
+package io.videogamedb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

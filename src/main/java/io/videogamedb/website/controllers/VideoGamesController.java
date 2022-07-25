@@ -1,8 +1,8 @@
-package io.gatling.demostore.website.controllers;
+package io.videogamedb.website.controllers;
 
-import io.gatling.demostore.models.VideoGameRepository;
+import io.videogamedb.models.VideoGameRepository;
 
-import io.gatling.demostore.models.data.VideoGame;
+import io.videogamedb.models.data.VideoGame;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

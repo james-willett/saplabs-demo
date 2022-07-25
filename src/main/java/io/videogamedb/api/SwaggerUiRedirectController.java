@@ -1,4 +1,4 @@
-package io.gatling.demostore.api;
+package io.videogamedb.api;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

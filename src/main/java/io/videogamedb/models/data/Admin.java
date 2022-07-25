@@ -1,4 +1,4 @@
-package io.gatling.demostore.models.data;
+package io.videogamedb.models.data;
 
 import javax.persistence.*;
 import java.util.Arrays;

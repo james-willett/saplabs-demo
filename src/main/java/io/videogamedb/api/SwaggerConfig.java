@@ -1,4 +1,4 @@
-package io.gatling.demostore.api;
+package io.videogamedb.api;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -36,9 +36,9 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("Gatling DemoStore API")
-                .description("This is an API for a fictional / dummy eCommerce store that sells eyeglass cases. The create/update API endpoints only simulate writes, their results do not actually get persisted.")
-                .contact(new Contact("Gatling", "https://gatling.io/", null))
+                .title("Video Game DB 2022 API")
+                .description("This is an API for a simple, fictional Video Game Database. The application is running in READ ONLY mode, which means any changes like creating, updating or deleting games does not get persisted.")
+                .contact(new Contact("James Willett", "https://james-willett.com", null))
                 .version("1.0.0")
                 .build();
     }

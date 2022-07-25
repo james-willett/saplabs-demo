@@ -1,8 +1,8 @@
-package io.gatling.demostore.api.controllers;
+package io.videogamedb.api.controllers;
 
-import io.gatling.demostore.api.payloads.VideoGameRequest;
-import io.gatling.demostore.models.VideoGameRepository;
-import io.gatling.demostore.models.data.VideoGame;
+import io.videogamedb.api.payloads.VideoGameRequest;
+import io.videogamedb.models.VideoGameRepository;
+import io.videogamedb.models.data.VideoGame;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;

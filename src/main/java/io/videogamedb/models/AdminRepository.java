@@ -1,6 +1,6 @@
-package io.gatling.demostore.models;
+package io.videogamedb.models;
 
-import io.gatling.demostore.models.data.Admin;
+import io.videogamedb.models.data.Admin;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

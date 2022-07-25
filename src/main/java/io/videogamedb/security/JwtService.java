@@ -1,4 +1,4 @@
-package io.gatling.demostore.security;
+package io.videogamedb.security;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtParser;

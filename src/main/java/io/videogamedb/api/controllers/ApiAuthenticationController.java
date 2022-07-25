@@ -1,8 +1,8 @@
-package io.gatling.demostore.api.controllers;
+package io.videogamedb.api.controllers;
 
-import io.gatling.demostore.api.payloads.AuthenticationRequest;
-import io.gatling.demostore.api.payloads.AuthenticationResponse;
-import io.gatling.demostore.security.JwtService;
+import io.videogamedb.api.payloads.AuthenticationRequest;
+import io.videogamedb.api.payloads.AuthenticationResponse;
+import io.videogamedb.security.JwtService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;

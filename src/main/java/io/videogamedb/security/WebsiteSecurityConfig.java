@@ -1,4 +1,4 @@
-package io.gatling.demostore.security;
+package io.videogamedb.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

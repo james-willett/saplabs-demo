@@ -1,4 +1,4 @@
-package io.gatling.demostore.security;
+package io.videogamedb.security;
 
 import org.springframework.core.annotation.Order;
 import org.springframework.http.HttpMethod;

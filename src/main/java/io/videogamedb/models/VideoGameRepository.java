@@ -1,6 +1,6 @@
-package io.gatling.demostore.models;
+package io.videogamedb.models;
 
-import io.gatling.demostore.models.data.VideoGame;
+import io.videogamedb.models.data.VideoGame;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

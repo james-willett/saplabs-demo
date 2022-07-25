@@ -1,4 +1,4 @@
-package io.gatling.demostore.api.payloads;
+package io.videogamedb.api.payloads;
 
 public class AuthenticationResponse {
 

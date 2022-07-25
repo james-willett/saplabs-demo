@@ -1,9 +1,9 @@
-package io.gatling.demostore.security;
+package io.videogamedb.security;
 
-import io.gatling.demostore.models.AdminRepository;
-import io.gatling.demostore.models.UserRepository;
-import io.gatling.demostore.models.data.Admin;
-import io.gatling.demostore.models.data.User;
+import io.videogamedb.models.AdminRepository;
+import io.videogamedb.models.UserRepository;
+import io.videogamedb.models.data.Admin;
+import io.videogamedb.models.data.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

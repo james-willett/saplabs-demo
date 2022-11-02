@@ -5,9 +5,9 @@ spring:
       password: pass
 
 server:
-  port: 443
-  ssl:
-    key-store: keystore.p12
-    key-store-password: Turkish@59
-    keyStoreType: PKCS12
-    keyAlias: tomcat
+  port: 8080 # change back to 443 later
+  # ssl:
+  #   key-store: keystore.p12
+  #   key-store-password: Turkish@59
+  #   keyStoreType: PKCS12
+  #   keyAlias: tomcat

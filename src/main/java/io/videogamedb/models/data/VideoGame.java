@@ -1,15 +1,14 @@
 package io.videogamedb.models.data;
 
 import javax.persistence.*;
-import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-import java.time.LocalDateTime;
 
-import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.UpdateTimestamp;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
+import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 
 @Entity
 @Table(name = "videogames", indexes = {@Index(columnList = "id")})
+@JacksonXmlRootElement(localName = "VideoGame")
 public class VideoGame {
 
     @Id
@@ -23,6 +22,7 @@ public class VideoGame {
 
     private int reviewScore;
 
+    @JacksonXmlProperty(isAttribute = true)
     private String category;
 
     private String rating;

@@ -42,6 +42,7 @@ public class ApiSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.POST, "/api/authenticate").permitAll()
+                .antMatchers("/api/v2/**").permitAll()
                 .antMatchers(HttpMethod.POST).hasAnyRole("ADMIN")
                 .antMatchers(HttpMethod.DELETE).hasAnyRole("ADMIN")
                 .antMatchers(HttpMethod.PUT).hasAnyRole("ADMIN")

@@ -21,9 +21,9 @@ import static org.springframework.http.MediaType.APPLICATION_XML_VALUE;
 
 @RestController
 @RequestMapping("/api/v2/videogame")
-public class ApiVideoGamesControllerXml {
+public class ApiVideoGamesControllerV2 {
 
-    public ApiVideoGamesControllerXml(VideoGameRepository videoGameRepository) {
+    public ApiVideoGamesControllerV2(VideoGameRepository videoGameRepository) {
         this.videoGameRepository = videoGameRepository;
     }
 

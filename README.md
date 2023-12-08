@@ -9,4 +9,4 @@ To run the application through Spring Boot do  `mvn spring-boot:run`.
 
 ## Building the application
 
-Build the project with `mvn package` and run the jar with `java -jar target/demo-store-0.0.1-SNAPSHOT.jar`
+Build the project with `mvn package` and run the jar with `java -jar target/video-game-db-0.0.1-SNAPSHOT.jarr`

@@ -145,9 +145,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
+				<!-- <configuration>
 					<executable>true</executable>
-				</configuration>
+				</configuration> -->
 			</plugin>
             <plugin>
                 <!-- Generates a ZIP bundle of the Postman files in the /static/downloads resource folder. -->
